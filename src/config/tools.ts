@@ -1,0 +1,16 @@
+export const toolsItems: string[] = [
+    'move',
+    'select',
+    'cut',
+    'color',
+    'graph',
+    'line',
+    'pencil',
+    'brush',
+    'pen',
+    'seal',
+    'text',
+    'eraser',
+    'paint',
+    'gradient',
+];

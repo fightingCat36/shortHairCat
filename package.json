@@ -1,0 +1,36 @@
+{
+  "name": "cat-drawer",
+  "version": "1.0.0",
+  "description": "a web drawing board basing on canvas",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.js",
+    "dev": "webpack-dev-server --config build/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "draw",
+    "canvas"
+  ],
+  "author": "lhy",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "css-loader": "^3.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.0.0",
+    "style-loader": "^1.0.1",
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
